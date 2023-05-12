@@ -12,10 +12,11 @@ function startJourney() {
     const utm_source = urlParams.get('utm_source');
 
 	window.location = "https://barclaycard.liberis.com/start"
+    +"?utm_term="
     +utm_term+"&utm_campaign="
     +utm_campaign+"&utm_content="
     +utm_content+"&utm_source="
-    +utm_source
+    +utm_source+""
     +"&utm_medium="+utm_medium;
     }
 </script>
